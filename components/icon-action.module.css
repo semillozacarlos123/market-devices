@@ -1,0 +1,33 @@
+.icon {
+  text-align: right;
+  position: absolute;
+  right: 18px;
+  top: 15px;
+  z-index: 1;
+  border-radius: 100%;
+  border: 3px solid #fff;
+}
+
+.icon svg {
+  color: #e0aa2e;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.flash {
+  background: linear-gradient(90deg, #373737, #f4b01d);
+  width: 84%;
+  height: 84%;
+  border-radius: 30px;
+  position: absolute;
+}
+.backCircle {
+  position: absolute;
+  right: 18px;
+  top: 15px;
+  z-index: 1;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 100%;
+  background-color: #fff;
+}

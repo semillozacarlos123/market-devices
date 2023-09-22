@@ -1,0 +1,67 @@
+.newsletter {
+  margin: 3rem auto;
+  width: 90%;
+  max-width: 20rem;
+}
+
+.newsletter h2 {
+  text-align: center;
+}
+
+/* .control input {
+  font: inherit;
+  padding: 0.25rem;
+  border-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 1px solid #ccc;
+} */
+.control input[type="text"] {
+  font: inherit;
+  padding: 0.25rem;
+  border-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.control input:focus {
+  outline: none;
+}
+
+.control input {
+  border: none;
+}
+
+.control button {
+  height: 30px;
+  width: 30px;
+  border: none;
+  margin-left: 5px;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.icon {
+  color: #373737;
+  width: 1rem;
+  height: 1rem;
+}
+
+.control {
+  wdith: 100%;
+  max-width: 700px;
+  align-items: center;
+  border-radius: 60px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.control input {
+  flex: 1;
+}

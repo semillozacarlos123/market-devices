@@ -1,0 +1,20 @@
+.button {
+  background-color: #e0aa2e;
+  border: none;
+  color: #fff;
+  padding: 7px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 8px;
+  border-radius: 10px;
+  border: 3px solid #fff;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
