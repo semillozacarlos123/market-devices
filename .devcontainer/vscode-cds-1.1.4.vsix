@@ -1,0 +1,4 @@
+"extensions": [
+        "dbaeumer.vscode-eslint",
+        "/tmp/vscode-cds-1.1.4.vsix"
+]

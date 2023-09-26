@@ -1,4 +1,4 @@
-import { readFile, readFileSync } from "fs";
+import { readFileSync } from "fs";
 import path from "path";
 
 export default function handler(req, res) {
@@ -39,6 +39,6 @@ export default function handler(req, res) {
       products[key].title = key.replace("-", " ").replace(/\d+/g, "");
       products[key].slug = key.replace(/\d+/g, word);
     }
-    res.status(200).json({ data: products });
+    res.status(200).json( products );
   }
 }

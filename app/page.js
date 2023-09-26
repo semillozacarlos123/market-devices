@@ -1,5 +1,7 @@
 // "use client";
 
+import React from "react";
+
 // export const dynamic = "force-dynamic";
 
 // import { useSuspenseQuery } from "@apollo/experimental-nextjs-app-support/ssr";
@@ -21,25 +23,27 @@
 // `;
 
 
-// import ProductList from "../components/product-list";
+import ProductList from "../components/product-list";
 
-// async function fetchProducts() {
-//   return fetch("https://potential-memory-9r6p7grq4pvc7qx5-3000.app.github.dev/api/products", {
-//     cache: "no-store",
-//   }).then((response) => response.json())
-//   // .then((data)=> console.log(data))
-//   .then((data)=> data)
-// }
+async function fetchProducts() { 
+  return fetch("https://super-duper-goldfish-g4qvwrpr657jf9j5x-3000.app.github.dev/api/products",{
+    headers:{
+      'Accept': 'application/json'
+    }
+  })
+  .then((response)=> response.json())
+
+}
+
 
 async function HomePage() {
   
-  // const { data } = useSuspenseQuery(query);
-  // const products = await fetchProducts();
+  // const products = useSuspenseQuery(query);
+  const products = await fetchProducts();
   return (
-    <>
-      {/* {JSON.stringify(data)} */}
-      <h1>Hi</h1>
-    </>
+    <div>
+      <ProductList items={products}/>
+    </div>
   );
 }
 
