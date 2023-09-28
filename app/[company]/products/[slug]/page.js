@@ -3,7 +3,7 @@ async function fetchProducts() {
   return fetch("https://super-duper-goldfish-g4qvwrpr657jf9j5x-3000.app.github.dev/api/product-detail",{
     headers:{
       'Accept': 'application/json',
-      'Authoritation': 'Bearer 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'
+      'Authoritation': 'bearer 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'
     }
   }).then((response) =>
     response.json()

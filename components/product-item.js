@@ -9,7 +9,7 @@ export default function ProductItem(props) {
 
 
   return (
-    <li className={styles.content} key={slug}>
+    <li className={styles.content} key={title}>
       <div className={styles.item}>
         <IconAction content={{ summary, company }}>
           <Image

@@ -43,7 +43,7 @@ export default async function handler(req, res) {
 
     // Set the endpoint URL and the access token
     let endpoint = 'https://api.github.com/graphql';
-    let token = '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';
+    let token = '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';
 
     let data = await Promise.all(urls.map(async (url, directoryIndex) => {
       let uri = new URL(url, 'https://github.com');
